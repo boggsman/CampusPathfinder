@@ -7,21 +7,26 @@
     <script src="src/phaser.min.js"></script>
     <script src="src/PathFinderPlugin.js"></script>
     <script src="src/easystar-0.1.5.js"></script>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 </head>
 <body>
 
-<div id="mapContainer"></div>
 
-<div id="controls">
-	<form id="locationSelection">
-			From: <select id="from"></select><br/>
-			To: <select id="to"></select><br/>
-			<input class="button" name="submit" type="button" value="submit" onclick="getFormData()" />
-	</form>
-</div>
+	<h1>Campus Pathfinder</h1>
+	<p>This is a path-finding tool to help you find the shortest distance walking path on the Clayton State University Campus. Use the drop-down menus below to select a start and a destination to find the shortest walking distance.</p>
+
+
+	<div id="controls">
+		<form id="locationSelection">
+			From: <select id="from"></select> To: <select id="to"></select> <input class="button" name="submit" type="button" value="submit" onclick="getFormData()" /><br/>
+		</form>
+	</div>
+
+	<div id="mapContainer"></div>
+
 
 <script type="text/javascript" src="src/Map.js"></script>
-
 <script>
 //jquery code to read the buildings.json file and append the info to the location select list
 	$.getJSON("assets/buildings.json", function(jsonData) {
