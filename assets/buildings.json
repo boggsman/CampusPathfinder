@@ -1,0 +1,73 @@
+{    "locations": [
+                        {
+                                "name" : "University Center",
+                                "x" : 136,
+                                "y" : 116
+                        },
+                        {
+                                "name" : "Continuing Education / Nursing",
+                                "x" : 121,
+                                "y" : 173
+                        },
+                        {
+                                "name" : "Music Education",
+                                "x" : 126,
+                                "y" : 153
+                        },
+                                                {
+                                "name" : "Spivey Hall",
+                                "x" : 118,
+                                "y" : 142
+                        },
+                        {
+                                "name" : "Edgewater hall",
+                                "x" : 163,
+                                "y" : 127
+                        },
+                        {
+                                "name" : "Lecture Hall",
+                                "x" : 156,
+                                "y" : 110
+                        },
+                        {
+                                "name" : "Natural & Behavioral Sciences",
+                                "x" : 160,
+                                "y" : 118
+                        },
+                        {
+                                "name" : "Faculty Hall",
+                                "x" : 149,
+                                "y" : 102
+                        },
+                        {
+                                "name" : "Laboratory Annex Building",
+                                "x" : 166,
+                                "y" : 89
+                        },
+                        {
+                                "name" : "Arts & Sciences",
+                                "x" : 159,
+                                "y" : 90
+                        },
+                        {
+                                "name" : "Clayton Hall",
+                                "x" : 150,
+                                "y" : 90
+                        },
+                        {
+                                "name" : "College of Business",
+                                "x" : 142,
+                                "y" : 90
+                        },
+                        {
+                                "name" : "Athletics Center",
+                                "x" : 110,
+                                "y" : 104
+                        },
+                        {
+                                "name" : "Library",
+                                "x" : 147,
+                                "y" : 124
+                        }
+                 ]
+}
